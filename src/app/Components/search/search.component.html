@@ -1,0 +1,7 @@
+<div class="row m-5">
+    <div class="col">
+        <input #search type="text" (keyup)="buscarpoke(search.value)" class="from-control" placeholder="buscaArtista">
+    </div>
+</div>
+
+<app-tarjetas [items]='ListPokemon'></app-tarjetas>

@@ -1,0 +1,28 @@
+<div class="row row-cols-2 row-cols-md-5 g-4">
+    <div class="col" *ngFor="let poke of items">
+
+
+        <div class="card">
+            <div>
+                <div class="titulo">
+                    <h5 class="card-title">
+                        {{poke.name}}
+                    </h5>
+                </div>
+                <div class="img img-cols-md-9 g-4">
+                    <img [src]="poke.sprites.front_default " class="card-img-top" alt="...">
+                </div>
+                <div class="card-body">
+                    <h4 class="card-title">
+
+                    </h4>
+                    <p class="card-text">
+                        <span class="badge bg-info text-dark">
+
+                        </span>
+
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
