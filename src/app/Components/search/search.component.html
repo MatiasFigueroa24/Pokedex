@@ -1,7 +1,34 @@
-<div class="row m-5">
-    <div class="col">
-        <input #search type="text" (keyup)="buscarpoke(search.value)" class="from-control" placeholder="buscaArtista">
-    </div>
+<div class="m-5">
+    <form class="example" action="action_page.php">
+        <input #search type="text" (keyup)="buscarpoke(search.value)" type="text" placeholder="Search.." name="search">
+    </form>
 </div>
 
-<app-tarjetas [items]='ListPokemon'></app-tarjetas>
+<div class="row row-cols-2 row-cols-md-5 g-4">
+    <div class="col">
+
+
+        <div class="card">
+            <div>
+                <div class="titulo">
+                    <h5 class="card-name">
+                        {{ListPokemon.name}}
+                    </h5>
+                </div>
+                <div class="img img-cols-md-9 g-4">
+                    <img [src]="ListPokemon.sprites.front_default " class="card-img-top" alt="...">
+                </div>
+                <div class="card-body">
+                    <h6 class="card-title">
+                        Peso: {{ListPokemon.weight}}
+                    </h6>
+                    <h6 class="card-title">
+                        Altura: {{ListPokemon.height}}
+                    </h6>
+                    <h2 class="Id">
+                        #{{ListPokemon.id}}
+                    </h2>
+                </div>
+            </div>
+        </div>
+    </div>

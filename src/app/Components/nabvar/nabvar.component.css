@@ -2,7 +2,18 @@ nav.navbar {
     background-color: #4979ff;
   }
   .pokemon-logo {
-    margin-left: 50px;
-    height: 50px;
-    width: 150px;
+    margin-left: 70px;
+    height: 80px;
+    width: 180px;
+  }
+  .home{
+    color: white;
+    position: relative;
+    left: 10px;
+
+  }
+  .search{
+    color: white;
+    position: relative;
+    left: 40px;
   }

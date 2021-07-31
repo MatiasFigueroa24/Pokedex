@@ -1,0 +1,86 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  /* Style the search field */
+  form.example input[type=text] {
+    padding: 10px;
+    font-size: 17px;
+    border: 1px solid grey;
+    float: left;
+    width: 50%;
+    background: #f1f1f1;
+  }
+  
+  /* Style the submit button */
+  form.example button {
+    float: left;
+    width: 20%;
+    padding: 10px;
+    background: #2196F3;
+    color: white;
+    font-size: 17px;
+    border: 1px solid grey;
+    border-left: none; /* Prevent double borders */
+    cursor: pointer;
+  }
+  
+  form.example button:hover {
+    background: #0b7dda;
+  }
+  
+  /* Clear floats */
+  form.example::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  img{
+    width: 80%;
+    height:80%;
+    margin: auto;
+    display: block;
+    background-color: rgba(173, 173, 173, 0.541);
+}
+
+.card{
+margin: 20px;
+border-radius: 20px;
+overflow: hidden;
+box-shadow: 5px 5px 10px;
+background-color:rgba(34, 34, 34, 0.877);
+
+}
+.titulo{
+    width: 170px;
+    height: 34px;;
+margin: 20px;
+border-radius: 20px;
+background-color: rgba(173, 173, 173, 0.541);
+
+}
+.id{
+  color:white;
+}
+.Id{
+  color:white;
+
+  position: relative;
+  top: -52px;
+  left: 100px;
+}
+.card-name{
+  color:white;
+  margin: 8%;
+  text-align: center;
+}
+h5{
+
+}
+h6{
+  color:white;
+  text-align: center;
+  width: 80px;    
+  border-radius: 20px;
+  background-color: rgba(173, 173, 173, 0.541);
+}

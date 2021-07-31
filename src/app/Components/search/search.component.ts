@@ -7,7 +7,7 @@ import { ServiceService } from 'src/app/Service/service.service';
   styleUrls: ['./search.component.css']
 })
 export class SearchComponent implements OnInit {
-  ListPokemon: any[] = [];
+  ListPokemon: any;
   buscar: string = "";
 
   constructor(private pokeServ: ServiceService) { }

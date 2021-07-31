@@ -22,6 +22,20 @@ border-radius: 20px;
 background-color: rgba(173, 173, 173, 0.541);
 
 }
+.especificaciones{
+    color:white;
+    text-align: center;
+    width: 80px;    
+    border-radius: 20px;
+    background-color: rgba(173, 173, 173, 0.541);
+}
+.Id{
+    color:white;
+
+    position: relative;
+    top: -52px;
+    left: 100px;
+}
 h5{
 color:white;
 margin: 8%;
